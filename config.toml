@@ -1,0 +1,24 @@
+baseurl = "http://abiosoft.com/"
+languageCode = "en-us"
+title = "Abiola Ibrahim"
+theme = "casper"
+destination = "/Users/abiola/appengineapps/abiosoft/public"
+paginate = 10
+DisqusShortname = "abiosoft"
+Copyright = "All rights reserved - 2015"
+
+[params]
+  description = "Amateurs call it genius, masters call it practice."
+  cover = "images/cover.png"
+  author = "Abiola Ibrahim"
+  logo = "images/me.jpg"
+  bio = "Technically adventurous with a mix of geek, gamer and coder. Loves Linux but uses Mac, disses Windows but can fix it and believes the Terminal is a way of life. Proud fan of Arsenal."
+  googleAnalyticsUserID = "UA-33991385-1"
+  twitter = "//twitter.com/abiosoft"
+  facebook = "//facebook.com/abiosoft"
+  github = "//github.com/abiosoft"
+  linkedin = "//ng.linkedin.com/in/abiosoft"
+  hobbies = "Java, Javascript, Go, Dart, Linux, Virtualization"
+  hobbytext = "I like"
+[permalinks]
+  post = "/:slug/"

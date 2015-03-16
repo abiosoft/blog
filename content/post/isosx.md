@@ -9,7 +9,7 @@ title = "Is Mac OSX the Linux we wanted?"
 +++
 I have been a Linux user for over 6 years mainly Ubuntu but I used other distros including Mandriva, OpenSuse, Fedora, Linux Mint, CrunchBang and Asturix though Asturix and Linx Mint are Ubuntu rip offs with customizations.
 
-After barely a day on Linux, I knew I was never going to switch back to Windows for development except it is an absolute requirement. The repository makes it easier to install development tools/libraries and the terminal is far more powerful than Windows' command prompt. To top it off, it works without killing your system performancce.
+After barely a day on Linux, I knew I was never going to switch back to Windows for development except it is an absolute requirement. The repository makes it easier to install development tools/libraries and the terminal is far more powerful than Windows' command prompt. To top it off, it works without killing your system's performance.
 
 Over the years, Linux has evolved so much and there has been numerous attempts to make the desktop appealing with Unity, Gnome 3, Cinnamon, Pantheon and co being created by their respective Distros but you can not help but feel they may never get there.
 

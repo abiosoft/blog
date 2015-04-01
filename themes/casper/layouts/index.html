@@ -5,7 +5,7 @@
 {{else}}
 <header class="main-header no-cover">
 {{end}}
-    
+
     <nav class="main-nav overlay clearfix">
         {{ if .Site.Params.logo }}
         <!--<a class="blog-logo" href="{{ .Permalink }}"><img src="{{.Site.BaseUrl}}{{ .Site.Params.logo }}" alt="Blog Logo" /></a>-->
@@ -21,6 +21,8 @@
             <h1 class="page-title">{{ .Site.Title }}</h1>
             <h2 class="page-description">{{ .Site.Params.description }}</h2>
             <div id="social-wrapper">
+              {{ with .Site.Params.email }}<a href="mailto:{{.}}" target="_blank"><i class="fa fa-envelope"></i> {{.}} </a>{{end}}
+              <br />
               {{ with .Site.Params.twitter }}<a href="{{.}}" target="_blank"><i class="fa fa-twitter-square"></i> twitter</a>{{end}}
               {{ with .Site.Params.linkedin }}<a href="{{ . }}" target="_blank"><i class="fa fa-linkedin-square"></i> linkedin</a> {{end}}
               {{ with .Site.Params.facebook }}<a href="{{ . }}" target="_blank"><i class="fa fa-facebook-square"></i> facebook</a>{{end}}

@@ -12,7 +12,7 @@ One of the early day complaints about Go (after lack of Generics _shhh..._) is u
 But as time passes, different projects emerged to offer a good coding experience for Go, ranging from basic features like syntax highlighting to wholesale features like intellisense and code refactoring.
 The following are my experiences with different Go IDEs.
 
-A moment of appreciation for [gocode](https://github.com/nsf/gocode) and its creator. The project was the beginning of the end of Go's lack of IDE criticism. If you are wondering why, all Go IDEs that I am aware of provides autocomplete via gocode.
+A moment of appreciation for [gocode](https://github.com/nsf/gocode) and its creator. The project was the beginning of the end of Go's lack of IDE criticism. If you are wondering why, all Go IDEs that I am aware of (except IntelliJ) provides autocomplete via gocode.
 
 ### GoClipse
 [Installation Instructions](https://github.com/GoClipse/goclipse/blob/latest/documentation/Installation.md#installation) |
@@ -116,6 +116,7 @@ It offers full IDE features comparable to what IntelliJ offers Java and it is my
 * Inbuilt version control tool
 * Inbuilt Terminal
 * godoc documentation integration
+* Scratch files (alternative to play.golang.org)
 
 #### Drawbacks
 * Pre-release build, not yet stable
@@ -149,7 +150,7 @@ Rank | IDE       | Score
 5    | GoClipse  | 1
 
 #### Stability
-Which one crashes the least.
+Which one crashes and lags the least.
 
 Rank | IDE       | Score
 -----|-----------|------

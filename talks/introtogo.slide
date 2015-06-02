@@ -1,0 +1,396 @@
+Introduction to Go
+I/O Extended 2015 Ibadan
+28 May 2015
+Tags: konga, gopher, golang
+
+Abiola Ibrahim
+Software Engineer, Konga
+a@abiosoft.com
+http://abiosoft.com
+@abiosoft
+
+* Agenda
+- My Go Story
+- Hello World
+- Introduction to Go
+- Code Session
+- Adoption of Go
+- Useful Links
+
+* My Go Story
+- Interpreted languages have slower runtimes and no compile time error checks.
+- I like Java but not the JVM overhead.
+- Building C++ is not as fun as desired.
+- Go is compiled, single binary with no dependencies.
+- Go builds very fast.
+
+* Scope of Talk
+Things this talk *cannot* help you do
+
+- Build drones
+- Create a Google.com killer
+- Replicate Facebook
+
+Things this talk can help you do
+
+- Understand the core of Go
+- Start writing Go apps
+
+* Hello World
+
+* CLI
+
+    package main
+
+    import "fmt"
+
+    func main() {
+        fmt.Println("Hello World")
+    }
+
+* Web Server
+
+    package main
+
+    import "net/http"
+
+    func handler(r *http.Request, w http.ResponseWriter){
+        w.Write([]byte("Hello World"))
+    }
+
+    func main(){
+        http.HandleFunc("/", handler)
+        http.ListenAndServe(":8080", nil)
+    }
+
+* Introduction to Go
+
+* Simple Type System
+Go is statically typed
+
+- Java/C++
+    int i = 1;
+
+- Go
+    i := 1 // int
+    pi := 3.142 // float32
+    hello := "Hello, I/O Extended!" // string
+
+    // func (int, int) int
+    add := func(x, y int) int { return x + y }
+
+* Syntax and Structure
+
+* Statements end with semicolon but not needed
+Valid line
+
+    var a = 1
+
+Also valid line
+
+    var b = "I/O Extended";
+
+* iota can come handy in constants
+    const EVENT = "I/O Extended"
+
+    const (
+        GOLANG_SESSION = iota
+        WEB_SESSION
+        HACKATHON
+    )
+
+* No brackets, just braces.
+    if a < 0 {
+        fmt.Printf("%d is negative\n", a)
+    }
+
+    for i := 0; i<10; i++ {
+        fmt.Println("I/O Extended is awesome")
+    }
+
+* No while, no do while, just for
+
+While loop equivalent in other languages
+
+    for i < 10 { ... }
+
+Infinite loop
+
+    for { ... }
+
+Range over arrays, slices, maps
+
+    nums := [4]int{0, 1, 2, 3}
+    for i, value := range nums {
+        fmt.Printf("value at %d is %d”, i, value)
+    }
+
+    events := map[string]string{ "location" : "Ibadan", ... }
+    for key, value := range events {
+        fmt.Println("Value at %s is %s", key, value)
+    }
+
+* If statement supports initialization
+
+    file, err := os.Open("sample.txt”)
+    if err == nil {
+        fmt.Println(file.Name())
+    }
+
+Variable can be scoped to condition if not needed afterwards
+
+    if file, err := os.Open("sample.txt”); err == nil {
+        fmt.Println(file.Name())
+    }
+
+* Multiple return values
+
+    func Sqrt(float64 n) (float64, err) {
+        if (n < 0){
+            return 0, errors.New("Negative number”)
+        }
+        return math.Sqrt(n), nil
+    }
+
+Useful for error checking
+
+    ...
+    buffer = make([]byte, 1024)
+    n, err := file.Read(buffer)
+    if err != nil {
+        fmt.Fprintf(os.Stderr, "An error occured: %v", err)
+        return
+    }
+    fmt.Printf("%v bytes read", n)
+
+* Multiple assignments
+
+    a, b, c := 1, 2, 3
+
+Useful for swapping values
+
+    func Reverse(str string) string {
+        b := []byte(str)
+        for i, j := 0, len(b)-1; i != j; i, j = i+1, j-1 {
+            b[i], b[j] = b[j], b[i]
+        }
+        return string(b)
+    }
+
+* Arrays and Slices
+Arrays
+
+    var nums [4]int //declaration
+    nums := [4]int{0, 1, 2, 3} //initialize
+
+Slices
+
+    n := nums[0:2]  // slice of nums from index 0 to 1
+    n := nums[:2]   // same as above
+    n := nums[2:]   // from index 2 to max index
+    n := nums[:]    // slice of entire array
+
+Assignments
+
+    nums[0] = 1
+    n[0] = 2
+
+* Maps
+Declaration and allocation
+
+    var m map[string]string //declaration
+    m = make(map[string]string) //allocation
+
+    //shorter declaration with allocation
+    m := make(map[string]string)
+
+Assignment
+
+    m["location”] = "Ibadan”
+
+Declaration with values
+
+    m := map[string]string {
+        "location” : "Ibadan”
+    }
+
+* Structs
+
+    type Point struct {
+        X int,
+        Y int,
+        Z int,
+    }
+
+Initialization
+
+    var p = Point{0, 1, 3}
+
+Initialize with some fields, other fields default to the type's empty value
+
+    var p = &Point{
+        X: 1,
+        Z: 2,
+    }
+
+* Functions
+
+void function
+
+    func SayHelloToMe(name string){
+        fmt.Printf(”Hello, %s”, name)
+    }
+
+function with return value
+
+    func Multiply(x, y int) int {
+        return x * y
+    }
+
+* Methods
+
+    type Rectangle struct {
+        X, Y int
+    }
+
+    func (r Rectangle) Area() int {
+        return r.X * r.Y
+    }
+
+    r := Rectangle{4, 3}
+    r.Area() // == 12
+
+Methods on custom types
+
+    type MyInt int
+
+    func (m MyInt) Square() int {
+        i := int(m)
+        return i * i
+    }
+
+    num := MyInt(4)
+    num.Square() // == 16
+
+* Interface
+
+    type Greeter interface {
+        Greet()
+    }
+
+Any type with `Greet()` function satisfies the interface.
+
+    type A string
+
+    func (a A) Greet(){
+        fmt.Println("Hello", a)
+    }
+
+    var g Greeter = A("Mark") // valid
+
+    g.Greet() // prints Hello Mark
+
+    // Invalid, string type is missing Greet function
+    var x Greeter = "Mark"
+
+* Scoping
+
+- Package level scope
+- No classes
+- A package can have multiple source files
+- Package source files reside in same directory
+
+Sample package declaration
+
+    package main
+
+* Visibility
+
+- Defined by case of first character, no use of private/public keywords
+
+Visible to other packages
+
+    var Name string
+
+    func Hello(name string) string {
+        return fmt.Printf("Hello %s", name)
+    }
+
+Not visible to other packages
+
+    var name string
+
+    func hello(name string) string {
+        return fmt.Printf(“Hello %s”, name)
+    }
+
+* Goroutines and Channels
+
+* Goroutines
+
+- Goroutines are like threads but cheaper. Multiple per threads.
+- Can be created with `go` keyword.
+
+    func heavyComputation() { ... }
+
+    go heavyComputation() // this runs in background
+    fmt.Println("execution continues")
+
+Wait for other Goroutines in the main goroutine
+
+    func heavyComputation(n int) { ... ; wg.Done() }
+
+    var wg sync.WaitGroup{}
+
+    // start 2 background goroutines
+    go heavyComputation(1)
+    go heavyComputation(2)
+
+    // wait for both
+    wg.Wait()
+    fmt.Println("2 heavy computations done")
+
+* Channels
+- Used for communicating between Goroutines
+- Declared with `chan` keyword
+- Message are passed and received with `<-` on right and left side of the channel respectively.
+
+    var a chan int // declaration
+    a = make(chan int) // allocation
+
+    func heavyComputation(id int) {
+        ...
+        a <- id // send to channel
+    }
+
+    go heavyComputation(1)
+    go heavyComputation(2)
+
+    fmt.Printf("%d finished first\n", <-a)
+
+    // wait for the second one
+    <-a
+
+* Code Session
+- Let us build a Guest Book web app.
+- Stores the name of user, message and time.
+
+* Adoption of Go
+Organizations using Go
+
+- Google
+- Canonical
+- DropBox
+- Twitter
+- SoundCloud
+- Heroku
+- Digital Ocean
+
+And many more at [[http://golang.org/wiki/GoUsers]]
+
+* Useful Links
+- Official Documentation [[http://golang.org/doc]]
+- Interactive tutorials [[http://tour.golang.org]]
+- Turorials [[http://gobyexample.com]]
+- Screencasts [[http://gophercasts.io]]
+- Lots of helpful articles [[http://golang.org/wiki/Articles]]

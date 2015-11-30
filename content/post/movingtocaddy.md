@@ -71,7 +71,7 @@ Finally, your site is gonna score **A** on [SSL Labs](https://www.ssllabs.com/ss
 #### I need this free SSL too
 Yeah I know, everyone needs it. I happen to be on the bleeding edge for Let's Encrypt and Caddy. This is currently only available to beta testers.
 
-Let's Encrypt will be out of private beta tomorrow (December 3) and Caddy 0.8 will be out few days after.
+Let's Encrypt will be out of private beta soon (December 3) and Caddy 0.8 will be out few days after.
 
 Keep an eye on [Caddy Blog](http://caddyserver.com/blog) for 0.8 announcement and get ready to enjoy this.
 

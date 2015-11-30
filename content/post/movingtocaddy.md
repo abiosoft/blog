@@ -9,7 +9,7 @@ title = "Moving to Caddy"
 
 +++
 
-This static blog has been on [AppEngine](http://cloud.google.com/appengine) for a while and I wrote a blog post about my [migration to Hugo and Appengine](/post/moving-to-hugo).
+This static blog has been on [AppEngine](http://cloud.google.com/appengine) for a while and I wrote a blog post about my [migration to Hugo and Appengine](/moving-to-hugo).
 
 Hugo is wonderful and I stick with it but its time to wave AppEngine goodbye. I am not taking advantage of any of the provided services by Google other than the free tier and it is
 not that big of deal to fork out few bucks to get more control.
@@ -23,6 +23,7 @@ Just like everyone, my Hugo site has its GitHub repository.
 ### Before
 
 It takes 3 steps to publish an article.
+
 * Write the blog post and push to GitHub.
 * Generate static content with Hugo.
 * Publish to AppEngine.

@@ -66,7 +66,7 @@ But that's not a Caddy feature ? Well, maybe after I tell you the details of my 
 
 All that is required is that `Caddyfile` above. You only need to remove the scheme and port, then use a domain instead of IP address and Caddy takes over the responsibility for you.
 
-Finally, your site is gonna score **A** on [SSL Labs](http://https://www.ssllabs.com/ssltest/analyze.html?d=abiosoft.com) and you probably know little or nothing about SSL.
+Finally, your site is gonna score **A** on [SSL Labs](https://www.ssllabs.com/ssltest/analyze.html?d=abiosoft.com) and you probably know little or nothing about SSL.
 
 #### I need this free SSL too
 Yeah I know, everyone needs it. I happen to be on the bleeding edge for Let's Encrypt and Caddy. This is currently only available to beta testers.

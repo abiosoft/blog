@@ -77,3 +77,6 @@ Keep an eye on [Caddy Blog](http://caddyserver.com/blog) for 0.8 announcement an
 
 #### Note
 * You only need to wait for Caddy 0.8 for free SSL feature. Everything else is available in the current stable release.
+
+#### Update. [Dec 04, 2015]
+* Caddy 0.8 is out :) Read the [announcement post](https://caddyserver.com/blog/caddy-0_8-released) and start having fun. 

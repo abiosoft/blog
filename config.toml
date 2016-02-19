@@ -19,7 +19,7 @@ Copyright = "All rights reserved - 2015"
   facebook = "//facebook.com/abiosoft"
   github = "//github.com/abiosoft"
   linkedin = "//ng.linkedin.com/in/abiosoft"
-  hobbies = "Java, Javascript, Go, Ruby, Dart, Linux, Virtualization"
+  hobbies = "Java, Javascript, Go, Ruby, Linux, Containers, Kubernetes"
   hobbytext = "I like"
 [permalinks]
   post = "/:slug/"

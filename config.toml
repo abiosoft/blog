@@ -5,10 +5,10 @@ theme = "casper"
 destination = "/Users/abiola/appengineapps/abiosoft/public"
 paginate = 10
 DisqusShortname = "abiosoft"
-Copyright = "All rights reserved - 2015"
+Copyright = "All rights reserved - 2016"
 
 [params]
-  description = "Amateurs call it genius, masters call it practice."
+  description = "Geek, Gopher, Polyglot, Containers."
   cover = "images/cover.png"
   author = "Abiola Ibrahim"
   logo = "images/me.jpg"
@@ -19,7 +19,7 @@ Copyright = "All rights reserved - 2015"
   facebook = "//facebook.com/abiosoft"
   github = "//github.com/abiosoft"
   linkedin = "//ng.linkedin.com/in/abiosoft"
-  hobbies = "Java, Javascript, Go, Ruby, Linux, Containers, Kubernetes"
+  hobbies = "Javascript, Go, Linux, Containers"
   hobbytext = "I like"
 [permalinks]
   post = "/:slug/"

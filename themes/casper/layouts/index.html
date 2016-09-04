@@ -1,21 +1,21 @@
 {{ partial "header.html" . }}
 
 {{if .Site.Params.cover}}
-<header class="main-header " style="background-image: url({{.Site.BaseUrl}}{{.Site.Params.cover}})">
+<header class="main-header " style="background-image: url({{.Site.BaseURL}}{{.Site.Params.cover}})">
 {{else}}
 <header class="main-header no-cover">
 {{end}}
 
     <nav class="main-nav overlay clearfix">
         {{ if .Site.Params.logo }}
-        <!--<a class="blog-logo" href="{{ .Permalink }}"><img src="{{.Site.BaseUrl}}{{ .Site.Params.logo }}" alt="Blog Logo" /></a>-->
+        <!--<a class="blog-logo" href="{{ .Permalink }}"><img src="{{.Site.BaseURL}}{{ .Site.Params.logo }}" alt="Blog Logo" /></a>-->
         {{end}}
         <a class="subscribe-button icon-feed" href="{{ .RSSLink }}">Subscribe</a>
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
           {{ if .Site.Params.logo }}
-            <img id="main-picture" src="{{.Site.BaseUrl}}{{ .Site.Params.logo }}" alt="Blog Logo" />
+            <img id="main-picture" src="{{.Site.BaseURL}}{{ .Site.Params.logo }}" alt="Blog Logo" />
           {{end}}
 
             <h1 class="page-title">{{ .Site.Title }}</h1>

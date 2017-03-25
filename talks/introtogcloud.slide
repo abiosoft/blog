@@ -1,0 +1,76 @@
+Introduction to Google Cloud
+ForLoop UI
+25 Mar 2017
+Tags: google, gcloud, cloud, forloop, andela, appengine, kubernetes
+
+Abiola Ibrahim
+Lead Software Engineer, Andela
+a@abiosoft.com
+http://abiosoft.com
+@abiosoft
+
+* Agenda
+- What is Google Cloud
+- Google Cloud Free Tier
+- Hello ForLoop
+- From Local to Production
+- More Resources
+
+* Our Sponsors
+- Andela
+- Flutterwave
+- Google
+- Konga
+- Scotch.io
+- Auth0
+
+* What is Google Cloud 
+[[https://cloud.google.com]]
+
+Let Google handle the infrastructure and having your app sit next to GMail.
+
+We will use the following in our demos.
+
+- Google Container Engine
+- Google Cloud SQL
+- Google Cloud Shell
+
+* Hello ForLoop
+
+* Simple API that connects to the DB
+
+3 endpoints
+
+- GET / -> Hello ForLoop
+- GET /guestbook -> List of posts
+- POST /guestbook -> Create a new post
+
+* Moment of Truth. Demo time.
+
+* Build [Demo]
+- Docker
+- Test locally
+
+* Deploy [Demo]
+- gcloud cli
+- Google Container Registry
+- Google Container Engine a.k.a managed Kubernetes
+- Google Cloud SQL
+
+* Google Container Enginer a.k.a managed Kubernetes
+- Container Management
+- Scaling
+- Self Healing
+- Zero Downtime Updates
+
+* Google Cloud Shell
+- Free Tier
+- 5GB of persistent storage
+- Linux server running Debian
+- Preinstalled with relevant tools vim, glcoud, docker, kubectl
+- Perfect playground
+
+* Useful Links
+- Google Cloud [[https://cloud.google.com]]
+- Docker Getting Started [[https://docs.docker.com/engine/getstarted/]]
+- Kubernetes Bootcamp [[https://kubernetesbootcamp.github.io/kubernetes-bootcamp/]]

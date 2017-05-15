@@ -8,7 +8,7 @@ DisqusShortname = "abiosoft"
 Copyright = "All rights reserved - 2016"
 
 [params]
-  description = "Geek, Gopher, Polyglot, Containers."
+  description = "Geek, Gopher, Polyglot."
   cover = "images/cover.png"
   author = "Abiola Ibrahim"
   logo = "images/me.jpg"
@@ -19,7 +19,7 @@ Copyright = "All rights reserved - 2016"
   facebook = "//facebook.com/abiosoft"
   github = "//github.com/abiosoft"
   linkedin = "//ng.linkedin.com/in/abiosoft"
-  hobbies = "Javascript, Go, Linux, Containers"
+  hobbies = "Dart, Go, Linux, Containers, Vim"
   hobbytext = "I like"
 [permalinks]
   post = "/:slug/"

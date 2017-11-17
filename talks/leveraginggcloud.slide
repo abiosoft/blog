@@ -1,0 +1,72 @@
+Leveraging Google Cloud for Personal Development
+DevFest SouthWest Nigeria
+18 Nov 2017
+Tags: google, gcloud, cloud, cloudshell, appengine, kubernetes
+
+Abiola Ibrahim
+Software Engineer
+a@abiosoft.com
+http://abio.la
+@abiosoft
+
+* Agenda
+- What is Google Cloud
+- Google Cloud Shell
+- Google Compute Engine
+- Google Cloud Free Tier
+
+* What is Google Cloud
+[[https://cloud.google.com]]
+
+Everything you need to build and scale.
+Let Google handle the infrastructure and you focus on the code.
+
+- AppEngine
+- Firebase
+- Google Cloud SQL
+- Google Cloud Storage
+- Google Compute Engine
+- Google Kubernetes Engine
+
+* Google Cloud Shell
+
+[[https://cloud.google.com/shell]]
+
+- Free and available for every account
+- Fully functional linux server
+- Presinstalled developer tools
+- 5GB of persisent home directory
+.image https://cdn-images-1.medium.com/max/1600/1*21Rf-OKizee9oL0jKlPBzA.png
+
+* Google Cloud Shell Demo
+- Docker playground
+- Web Preview
+- Development environment
+- Personal playground
+
+* Google Compute Engine
+
+[[https://cloud.google.com/ComputeEngine]]
+
+- Scalable high performance virtual machines
+- Linux and Windows support
+- Per-Second billing
+- Free f1-micro instance
+
+* Google Compute Engine Demo
+- Create a new instance
+- Access it via public IP
+
+* Google Cloud Free Tier
+[[https://cloud.google.com/free]]
+
+- $300 free credit to get started
+- Google AppEngine
+- Google Cloud Functions
+- Google Cloud Datastore
+- Google Cloud Storage
+- Google Cloud Container Builder
+- Google Cloud Source Repositories
+
+
+

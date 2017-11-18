@@ -8,7 +8,7 @@ DisqusShortname = "abiosoft"
 Copyright = "All rights reserved - 2016"
 
 [params]
-  description = "Geek, Gopher, Polyglot."
+  description = "Software Craftsman"
   cover = "images/cover.png"
   author = "Abiola Ibrahim"
   logo = "images/me.jpg"

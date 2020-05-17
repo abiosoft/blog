@@ -37,7 +37,7 @@
         var $postContent = $(".post-content");
         $postContent.fitVids();
 
-        function updateImageWidth() {
+        function updateImageWidth () {
             var $this = $(this),
                 contentWidth = $postContent.outerWidth(), // Width of the content
                 imageWidth = this.naturalWidth; // Original image resolution
@@ -50,7 +50,7 @@
         }
 
         var $img = $("img").on('load', updateImageWidth);
-        function casperFullImg() {
+        function casperFullImg () {
             $img.each(updateImageWidth);
         }
 
@@ -62,7 +62,7 @@
     });
 
     // smartresize
-    jQuery.fn[sr] = function(fn) { return fn ? this.bind('resize', debounce(fn)) : this.trigger(sr); };
+    jQuery.fn[sr] = function (fn) { return fn ? this.bind('resize', debounce(fn)) : this.trigger(sr); };
 
     // Arctic Scroll by Paul Adam Davis
     // https://github.com/PaulAdamDavis/Arctic-Scroll
@@ -73,7 +73,7 @@
             speed: 500
         },
 
-        allOptions = $.extend(defaults, options);
+            allOptions = $.extend(defaults, options);
 
         allOptions.elem.click(function (event) {
             event.preventDefault();
@@ -85,12 +85,12 @@
 
             if (offset) {
                 toMove = parseInt(offset);
-                $htmlBody.stop(true, false).animate({scrollTop: ($(this.hash).offset().top + toMove) }, allOptions.speed);
+                $htmlBody.stop(true, false).animate({ scrollTop: ($(this.hash).offset().top + toMove) }, allOptions.speed);
             } else if (position) {
                 toMove = parseInt(position);
-                $htmlBody.stop(true, false).animate({scrollTop: toMove }, allOptions.speed);
+                $htmlBody.stop(true, false).animate({ scrollTop: toMove }, allOptions.speed);
             } else {
-                $htmlBody.stop(true, false).animate({scrollTop: ($(this.hash).offset().top) }, allOptions.speed);
+                $htmlBody.stop(true, false).animate({ scrollTop: ($(this.hash).offset().top) }, allOptions.speed);
             }
         });
 
@@ -100,43 +100,43 @@
 /**
  * For the hobby scroll
  */
-(function(){
-  'use strict';
-  
-  jQuery(document).ready(function(){
-    var hobbies = $('#hobby-list').val().split(",");
-    if (!hobbies || hobbies.length == 0){
-      return;
-    }
-    var i = 0;
-    var elem = $('#hobby-value');
-    elem.html(hobbies[i]);
-    $('#hobby-scroll').show();
-    setInterval(function(){
-      i++;
-      i = i >= hobbies.length ? 0 : i;
-      var hobby = hobbies[i].trim();
-      var intv;
-      var length = elem.html().length;
-      intv = setInterval(function(){
-        var sub = elem.html().substr(0, length)
-        elem.html(sub);
-        length--;
-        if (length < 0){
-          clearInterval(intv);
-          intv = setInterval(function(){
-            length++; 
-            if (length > hobby.length){
-              clearInterval(intv);
-              elem.html(sub)
-              return;
-            }
-            sub = hobby.substr(0, length);
-            elem.html(sub);
-          }, 50);
+(function () {
+    'use strict';
+
+    jQuery(document).ready(function () {
+        var hobbies = $('#hobby-list').val().split(",");
+        if (!hobbies || hobbies.length == 0) {
+            return;
         }
-      },50);
-    }, 3000);
-  });
+        var i = 0;
+        var elem = $('#hobby-value');
+        elem.html(hobbies[i]);
+        $('#hobby-scroll').show();
+        setInterval(function () {
+            i++;
+            i = i >= hobbies.length ? 0 : i;
+            var hobby = hobbies[i].trim();
+            var intv;
+            var length = elem.html().length;
+            intv = setInterval(function () {
+                var sub = elem.html().substr(0, length)
+                elem.html(sub);
+                length--;
+                if (length < 0) {
+                    clearInterval(intv);
+                    intv = setInterval(function () {
+                        length++;
+                        if (length > hobby.length) {
+                            clearInterval(intv);
+                            elem.html(sub)
+                            return;
+                        }
+                        sub = hobby.substr(0, length);
+                        elem.html(sub);
+                    }, 50);
+                }
+            }, 50);
+        }, 5000);
+    });
 })()
 

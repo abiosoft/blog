@@ -2,55 +2,61 @@
 
 {{if .Site.Params.cover}}
 <header class="main-header " style="background-image: url({{.Site.BaseURL}}{{.Site.Params.cover}})">
-{{else}}
-<header class="main-header no-cover">
-{{end}}
+  {{else}}
+  <header class="main-header no-cover">
+    {{end}}
 
     <nav class="main-nav overlay clearfix">
-        {{ if .Site.Params.logo }}
-        <!--<a class="blog-logo" href="{{ .Permalink }}"><img src="{{.Site.BaseURL}}{{ .Site.Params.logo }}" alt="Blog Logo" /></a>-->
-        {{end}}
-        <a class="subscribe-button icon-feed" href="{{ .RSSLink }}">Subscribe</a>
+      {{ if .Site.Params.logo }}
+      <!--<a class="blog-logo" href="{{ .Permalink }}"><img src="{{.Site.BaseURL}}{{ .Site.Params.logo }}" alt="Blog Logo" /></a>-->
+      {{end}}
+      <a class="subscribe-button icon-feed"
+        href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}">Subscribe</a>
     </nav>
     <div class="vertical">
-        <div class="main-header-content inner">
-          {{ if .Site.Params.logo }}
-            <img id="main-picture" src="{{.Site.BaseURL}}{{ .Site.Params.logo }}" alt="Blog Logo" />
-          {{end}}
+      <div class="main-header-content inner">
+        {{ if .Site.Params.logo }}
+        <img id="main-picture" src="{{.Site.BaseURL}}{{ .Site.Params.logo }}" alt="Blog Logo" />
+        {{end}}
 
-            <h1 class="page-title">{{ .Site.Title }}</h1>
-            <h2 class="page-description">{{ .Site.Params.description }}</h2>
-            <div id="social-wrapper">
-              {{ with .Site.Params.email }}<a href="mailto:{{.}}" target="_blank"><i class="fa fa-envelope"></i> {{.}} </a>{{end}}
-              <br />
-              {{ with .Site.Params.twitter }}<a href="{{.}}" target="_blank"><i class="fa fa-twitter-square"></i> twitter</a>{{end}}
-              {{ with .Site.Params.linkedin }}<a href="{{ . }}" target="_blank"><i class="fa fa-linkedin-square"></i> linkedin</a> {{end}}
-              {{ with .Site.Params.github }}<a href="{{ . }}" target="_blank"><i class="fa fa-github-square"></i> github</a>{{end}}
-            </div>
-            {{ if .Site.Params.hobbies }}
-            <div id="hobby-scroll"> {{ if .Site.Params.hobbytext }} {{ .Site.Params.hobbytext }} {{ else }} I love {{end}} <span id="hobby-value"></span> </div>
-              <input type="hidden" id="hobby-list" value="{{ .Site.Params.hobbies }}" />
-            {{end}}
+        <h1 class="page-title">{{ .Site.Title }}</h1>
+        <h2 class="page-description">{{ .Site.Params.description }}</h2>
+        <div id="social-wrapper">
+          {{ with .Site.Params.email }}<a href="mailto:{{.}}" target="_blank"><i class="fa fa-envelope"></i> {{.}}
+          </a>{{end}}
+          <br />
+          {{ with .Site.Params.twitter }}<a href="{{.}}" target="_blank"><i class="fa fa-twitter-square"></i>
+            twitter</a>{{end}}
+          {{ with .Site.Params.linkedin }}<a href="{{ . }}" target="_blank"><i class="fa fa-linkedin-square"></i>
+            linkedin</a> {{end}}
+          {{ with .Site.Params.github }}<a href="{{ . }}" target="_blank"><i class="fa fa-github-square"></i>
+            github</a>{{end}}
         </div>
+        {{ if .Site.Params.hobbies }}
+        <div id="hobby-scroll"> {{ if .Site.Params.hobbytext }} {{ .Site.Params.hobbytext }} {{ else }} I love {{end}}
+          <span id="hobby-value"></span> </div>
+        <input type="hidden" id="hobby-list" value="{{ .Site.Params.hobbies }}" />
+        {{end}}
+      </div>
     </div>
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
-</header>
+  </header>
 
 
-<main id="content" class="content" role="main">
+  <main id="content" class="content" role="main">
 
     {{ $paginator := .Paginator }}
 
     <div class="extra-pagination inner">
-        {{ partial "pagination.html" $paginator }}
+      {{ partial "pagination.html" $paginator }}
     </div>
 
     {{ range $index, $page := .Paginator.Pages }}
-        {{ .Render "li" }}
+    {{ .Render "li" }}
     {{ end }}
 
     {{ partial "pagination.html" $paginator }}
 
-</main>
+  </main>
 
-{{ partial "footer.html" . }}
+  {{ partial "footer.html" . }}

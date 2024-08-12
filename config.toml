@@ -48,6 +48,10 @@ url = "https://www.linkedin.com/in/abiosoft/"
 name = "twitter"
 url = "https://twitter.com/abiosoft"
 
+[[params.social]]
+name = "email"
+url = "mailto:hey@abiosoft.com"
+
 # Main menu pages
 [[params.menu]]
 name = "home"
@@ -60,6 +64,10 @@ url = "/posts"
 [[params.menu]]
 name = "about"
 url = "/about"
+
+[[params.menu]]
+name = "contact"
+url = "/contact"
 
 # Syntax highligth on code blocks
 [markup]

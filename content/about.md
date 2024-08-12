@@ -17,7 +17,7 @@ A goal getter with vivid memories of the humble beginnings.
 
 > _"The mark of a true hero is humility."_
 
-A speaker of Yoruba, English and Arabic.
+A speaker of Yoruba, English and Arabic languages.
 
 > _"If you talk to a man in a language he understands, that goes to his head. If you talk to him in his language, that goes to his heart."_
 

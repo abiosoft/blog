@@ -1,0 +1,30 @@
++++
+comments = true
+date = "2015-03-08T15:15:30+01:00"
+image = ""
+slug = "is-osx-the-linux-we-wanted"
+tags = ["osx", "linux"]
+title = "Is Mac OSX the Linux we wanted?"
+toc =  false
+readTime = true
+autonumber = false
++++
+I have been a Linux user for over 6 years mainly Ubuntu but I used other distros including Mandriva, OpenSuse, Fedora, Linux Mint, CrunchBang and Asturix though Asturix and Linx Mint are Ubuntu rip offs with customizations.
+
+After barely a day on Linux, I knew I was never going to switch back to Windows for development except it is an absolute requirement. The repository makes it easier to install development tools/libraries and the terminal is far more powerful than Windows' command prompt. To top it off, it works without killing your system's performance.
+
+Over the years, Linux has evolved so much and there has been numerous attempts to make the desktop appealing with Unity, Gnome 3, Cinnamon, Pantheon and co being created by their respective Distros but you can not help but feel they may never get there.
+
+Linux is awesome, it is not the main server OS by fluke. It looks perfect for development but the desktop experience is not yet on par with Windows (yes Windows) and OSX.
+
+### Onto OSX
+OSX has a reputation for user experience and graphical appeal. As biased as you may want to be, there is an element of truth in that. It then combines that with the shell that made many leave Windows for Linux. So in essence, you are getting the full shell experience and also a good desktop experience.
+
+Most of the productivity tools on Windows are also available for OSX which then further makes it the most complete OS for a developer. Also, unlike Linux, you are almost certain that a restart after a major update will go well because Apple owns both the software and the hardware.
+
+The major con for someone coming from Linux to OSX is the lack of freedom to customize.
+
+### Conclusion
+As much as I have been critical of OSX that you can equally achieve same thing on Linux, it is true that you can achieve same things on Linux but it is not true that the experience is as smooth.
+
+I love Linux and I am baised towards it but I have conceded that OSX is an all round better OS for a developer than Linux.

@@ -1,23 +1,67 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "Abiola Ibrahim"
-theme = "casper"
+theme = "typo"
 paginate = 10
-DisqusShortname = "abiosoft"
-Copyright = "All rights reserved - 2020"
+
+[taxonomies]
+tag = 'tags'
 
 [params]
-  subtitle = "Software Craftsman"
-  cover = "images/cover.png"
-  author = "Abiola Ibrahim"
-  bio = "Technically adventurous with a mix of geek, gamer and coder"
-  googleAnalyticsUserID = "UA-70866902-1"
-  email = "a@abiosoft.com"
-  twitter = "//twitter.com/abiosoft"
-  facebook = "//facebook.com/abiosoft"
-  github = "//github.com/abiosoft"
-  linkedin = "//ng.linkedin.com/in/abiosoft"
-  hobbies = "coding in Go, coding in Typescript, coding with Vim, toying with Caddy, building with Containers"
-  hobbytext = "I like"
-[permalinks]
-  post = "/:slug/"
+
+# Meta description
+description = "software craftsman"
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = true
+
+# Intro on main page, content is markdown
+# homeIntroTitle = 'Hi!'
+homeIntroContent = """
+software craftsman, husband, father
+"""
+
+# Collection to display on home
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 50
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+breadcrumbs = true
+
+# Social icons
+[[params.social]]
+name = "github"
+url = "https://github.com/abiosoft"
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/abiosoft/"
+
+[[params.social]]
+name = "twitter"
+url = "https://twitter.com/abiosoft"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+# Syntax highligth on code blocks
+[markup]
+[markup.highlight]
+style = 'bw'

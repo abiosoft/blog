@@ -1,6 +1,5 @@
 ---
 date: "2015-03-08T13:47:32+01:00"
-slug: "moving-to-hugo"
 tags: ["hugo", "golang", "appengine", "blog"]
 title: "Moving to Hugo"
 toc: false

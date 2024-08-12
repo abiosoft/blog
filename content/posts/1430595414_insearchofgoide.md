@@ -3,7 +3,6 @@ comments = true
 date = "2015-05-02T22:56:54+01:00"
 draft = false
 image = ""
-slug = "in-search-of-go-ide"
 tags = ["go", "golang", "ide", "eclipse", "vim", "atom", "sublime", "intellij"]
 title = "In search of Go IDE"
 toc =  false

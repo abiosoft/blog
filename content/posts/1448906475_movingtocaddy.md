@@ -3,7 +3,6 @@ comments = true
 date = "2015-11-30T19:01:15+01:00"
 draft = false
 image = ""
-slug = "moving-to-caddy"
 tags = ["caddy", "server", "https", "letsencrypt", "git", "webhook"]
 title = "Moving to Caddy"
 toc =  false

@@ -5,7 +5,7 @@ hideBackToTop: true
 hidePagination: true
 ---
 
-A tech enthusiast and a seasoned and versatile tinkerer of software and computers.
+A tech enthusiast and a seasoned and versatile tinkerer of softwares and computers.
 
 > _"Abiola is a joy to work with and an asset to any development team."_
 

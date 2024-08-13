@@ -50,7 +50,11 @@ url = "https://twitter.com/abiosoft"
 
 [[params.social]]
 name = "email"
-url = "mailto:hey@abiosoft.com"
+url = "/contact"
+
+[[params.social]]
+name = "rss"
+url = "/index.xml"
 
 # Main menu pages
 [[params.menu]]

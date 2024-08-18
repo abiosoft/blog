@@ -4,6 +4,7 @@ date = "2015-03-16T15:36:49+01:00"
 image = ""
 tags = ["golang", "inheritance", "java"]
 title = "Go and Inheritance"
+description = "Go and Inheritance"
 toc =  false
 readTime = true
 autonumber = false

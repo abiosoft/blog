@@ -2,6 +2,7 @@
 date: "2015-03-08T13:47:32+01:00"
 tags: ["hugo", "golang", "appengine", "blog"]
 title: "Moving to Hugo"
+description: "Moving to Hugo"
 toc: false
 readTime: true
 autonumber: false

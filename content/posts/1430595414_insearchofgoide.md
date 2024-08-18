@@ -5,6 +5,7 @@ draft = false
 image = ""
 tags = ["go", "golang", "ide", "eclipse", "vim", "atom", "sublime", "intellij"]
 title = "In search of Go IDE"
+description = "In search of Go IDE"
 toc =  false
 readTime = true
 autonumber = false

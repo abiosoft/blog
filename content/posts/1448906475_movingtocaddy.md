@@ -5,6 +5,7 @@ draft = false
 image = ""
 tags = ["caddy", "server", "https", "letsencrypt", "git", "webhook"]
 title = "Moving to Caddy"
+description = "Moving to Caddy"
 toc =  false
 readTime = true
 autonumber = false

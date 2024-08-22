@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Abiola Ibrahim"
 theme = "typo"
 paginate = 10
+enableRobotsTXT = true
 
 [taxonomies]
 tag = 'tags'

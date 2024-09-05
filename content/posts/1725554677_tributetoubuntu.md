@@ -24,7 +24,7 @@ Before my encounter with Linux, I have only exclusively used Windows.
 I started as early as Windows 3.1 and pretty much interacted with every single version until Windows Vista,
 the latest version at the time.
 
-I did come across Apple computers on few ocassions, but in my head when I hear you say computer I interpreted that to
+I did come across Apple computers on few occasions, but in my head when I hear you say computer I interpreted that to
 mean a device running Windows.
 
 ### Discovery of Linux

@@ -21,7 +21,7 @@ And for some end users, Linux is equivalent to Ubuntu and they use both terminol
 
 Before my encounter with Linux, I have only exclusively used Windows.
 
-I started as early as Windows 3.1 and pretty much interacted with every single version until Windows Vista,
+I started as early as Windows 3.1 and pretty much interacted with every major version until Windows Vista,
 the latest version at the time.
 
 I did come across Apple computers on few occasions, but in my head when I hear you say computer I interpreted that to

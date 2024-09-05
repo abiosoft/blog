@@ -15,7 +15,7 @@ distros with Ubuntu missing. In fact, it is more likely for Ubuntu to be in top 
 To paint a clearer picture of it's popularity, there are softwares that are branded as _"supported on Linux"_ but only
 packaged for Ubuntu.
 
-And for some end users, Linux is equivalent to Ubuntu and they use both termilogies interchangeably.
+And for some end users, Linux is equivalent to Ubuntu and they use both terminologies interchangeably.
 
 ### Windows Orientation
 

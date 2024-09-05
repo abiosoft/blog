@@ -17,7 +17,7 @@ packaged for Ubuntu.
 
 And for some end users, Linux is equivalent to Ubuntu and they use both terminologies interchangeably.
 
-### Windows Orientation
+### Windows orientation
 
 Before my encounter with Linux, I have only exclusively used Windows.
 

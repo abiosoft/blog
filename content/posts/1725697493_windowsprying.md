@@ -55,7 +55,7 @@ Once you buy a laptop with Windows branding, the Windows installed on that lapto
 
 ### And you even get bullied
 
-You can no longer setup a Windows 11 device without a Microsoft account [^1].
+You can no longer setup a Windows 11 device without a Microsoft account. [^1]
 
 It is your device, you own it and you paid your money for it. You even paid Microsoft.
 

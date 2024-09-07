@@ -55,7 +55,7 @@ Once you buy a laptop with Windows branding, the Windows installed on that lapto
 
 ### And they even bully you
 
-You can no longer setup a Windows 11 device without a Microsoft account.
+You can no longer setup a Windows 11 device without a Microsoft account [^1].
 
 It is your device, you own it and you paid your money for it. You even paid Microsoft.
 
@@ -73,3 +73,5 @@ And with many developer-friendly improvements getting added to Windows consisten
 
 But if Windows is going to keep wearing it's crown as the prying and intrusive operating system, it is the last thing
 I would consider as a primary device.
+
+[^1]: I do acknowledge that there are ways to bypass the online account requirement. But I am referring to the standard experience for the average user.

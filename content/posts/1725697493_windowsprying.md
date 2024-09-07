@@ -38,7 +38,7 @@ horrors on your first launch of the [Start menu](https://en.wikipedia.org/wiki/S
 There is a reason people are googling ["how to remove Candy Crush Saga from Windows"](https://www.google.com/search?q=how+to+remove+candy+crush+saga+on+windows)
 and many videos and articles are made about the uninstall process.
 
-### And you actually pay for it
+### You actually pay for it
 
 Candy Crush Saga is not the only intruder waiting for you on Windows, but that is far from being the main issue.
 
@@ -53,7 +53,7 @@ How Windows became an exception to the rule is what I struggle to understand.
 And yes, you have indeed paid for Windows even if you do not purchase on [Microsoft Store](https://www.microsoft.com/en-us/d/windows-11-pro/dg7gmgf0d8h4/000P).
 Once you buy a laptop with Windows branding, the Windows installed on that laptop has been paid for.
 
-### And they even bully you
+### And you even get bullied
 
 You can no longer setup a Windows 11 device without a Microsoft account [^1].
 

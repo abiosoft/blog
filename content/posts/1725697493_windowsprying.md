@@ -42,7 +42,7 @@ and many videos and articles are made about the uninstall process.
 
 Candy Crush Saga is not the only intruder waiting for you on Windows, but that is far from being the main issue.
 
-Most (if not all) platforms provides payment as an incentive to get out of ads. Apps on the [Play Store](https://play.google.com)
+Most (if not all) platforms provides payment as an incentive to get out of ads. Apps on the [Google Play Store](https://play.google.com)
 and [Apple App Store](https://www.apple.com/app-store/) generally allow you to pay to prevent ads.
 
 Even the ring leader, Google, allows you to pay for Gmail and YouTube to get an ad-free experience. And Microsoft does

@@ -19,7 +19,7 @@ And we have many successful companies that their main selling point can be summa
 
 Microsoft cannot help but device a means to get their own share of user data, and Windows is a perfect candidate for that.
 
-Slowly but surely, Windows would keep adding features that improves your experience (as they claim) by needing the internet.
+Slowly but surely, Windows would keep adding features that improve your experience (as they claim) by needing the internet.
 
 ### Adfested and a mess
 

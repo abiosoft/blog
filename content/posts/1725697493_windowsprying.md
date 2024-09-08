@@ -42,7 +42,7 @@ and many videos and articles are made about the uninstall process.
 
 Candy Crush Saga is not the only intruder waiting for you on Windows, but that is far from being the main issue.
 
-Most (if not all) platforms provide payment as an incentive to get out of ads. Apps on the [Google Play Store](https://play.google.com)
+Most (if not all) platforms provide payment as an incentive to get out of ads. Apps on [Google Play Store](https://play.google.com)
 and [Apple App Store](https://www.apple.com/app-store/) generally allow you to pay to prevent ads.
 
 Even the ring leader, Google, allows you to pay for Gmail and YouTube to get an ad-free experience. And Microsoft does
@@ -72,6 +72,6 @@ products that are comparable to Apple Silicon in power efficiency and performanc
 And with many developer-friendly improvements getting added to Windows consistently, you cannot help but keep an eye on the progress.
 
 But if Windows is going to keep wearing it's crown as the prying and intrusive operating system, it is the last thing
-I would consider as a primary device.
+I would consider for a primary device.
 
 [^1]: I do acknowledge that there are ways to bypass the online account requirement. But I am referring to the standard experience for the average user.

@@ -15,7 +15,7 @@
         </p>
 
         {{ if .Site.Params.listSummaries }}
-        <p class="line-summary"> {{ .Summary }} </p>
+        <p class="line-summary"> {{ substr .Summary 0 250 }}... </p>
         {{ end }}
     </div>
 </div>

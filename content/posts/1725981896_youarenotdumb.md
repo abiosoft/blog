@@ -60,6 +60,6 @@ Bar's story.
 The reason you feel disconnected is due to the gaps in knowledge. You have skipped some steps along the way that are
 necessary. And without them, you are without the ability to comprehend what you are trying to read.
 
-### In conclusion
+### Good news
 
 You are not dumb. And just like Foo, you only need to fill the gaps.

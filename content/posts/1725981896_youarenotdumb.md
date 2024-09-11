@@ -35,7 +35,7 @@ identify the English alphabets because he is yet to resume school.
 
 Bar on the other hand was homeschooled early on. He likes drawing and can also write short stories.
 
-Foo met Bar at the playground and while playing, they discovered they both like cats.
+Foo met Bar at the playground and while playing, they discovered that they are both fond of cats.
 On getting back home, Bar drew a short pictorial story about his cat and gave his mum to deliver it to Foo's mum.
 
 Foo was wowed at the fact that Bar could compose a story. He tried his best to make sense of the content based on the

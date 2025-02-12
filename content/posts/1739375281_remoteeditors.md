@@ -3,6 +3,7 @@ title = 'Remote editors in Vim territory'
 description = 'Remote editors in Vim territory'
 date = 2025-02-12T16:48:01+01:00
 readTime = true
+tags = ["vim", "ssh", "vscode", "fleet", "gateway"]
 +++
 
 If there is one thing that Vim users have emphasised over time, it is the fact that Vim is always available.

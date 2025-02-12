@@ -55,4 +55,4 @@ Now there are alternatives that offer powerful IDE features, feel native while r
 
 Vim remains undisputed in its simplicity and experience. But when the right tool is needed for the job, the Vim experience is no longer the necessary sacrifice
 
-It is therefore safe to concede that remote editors are now roaming in the Vim territory.
+It is therefore safe to concede that remote editors are now roaming in Vim territory.

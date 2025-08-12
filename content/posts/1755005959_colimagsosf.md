@@ -18,7 +18,7 @@ Colima started out as a personal [bash script](https://github.com/abiosoft/colim
 
 It builds on a project called [Lima](https://github.com/lima-vm/lima). The initial name was in fact, [LimaKube](https://github.com/abiosoft/colima/blob/81cd704a6a8ce970cca75b47a54975a56b2c3afe/README.md) before deciding on Colima [two days later](https://github.com/abiosoft/colima/commit/d0686356eb7c81bf453b63746e6219ca4f90ad58).
 
-Due to positive feedbacks, it was later re-written in [Go](https://go.dev) to add more capabilities.
+Due to positive feedback, it was later re-written in [Go](https://go.dev) to add more capabilities.
 Nonetheless, it was meant to be just another toolkit for my use.
 
 ### Surprising Popularity
@@ -76,11 +76,20 @@ I also met multiple open source leaders, as well as security leaders at Github a
 You can learn more about the [Github Secure Open Source Program here](https://github.blog/open-source/maintainers/securing-the-supply-chain-at-scale-starting-with-71-important-open-source-projects/).
 
 
-### Looking ahead
+### What is next?
 
 The current focus of the Colima project is to improve it's stability, attend to security and bug fixes, and reliability related issues.
 
 With the launch of [Apple Containers](https://github.com/apple/container/) and [Lima gaining Windows support (via WSL2)](https://lima-vm.io/docs/config/vmtype/#wsl2),
 there is more in store for Colima in the coming months.
+
+### Supporting the project
+
+You can support Colima in multiple ways.
+
+- Using Colima and providing valuable feedback.
+- Engaging other users in communication channels (Github issues, Slack).
+- Source code contribution
+- Financial support on [Github Sponsors](https://github.com/sponsors/abiosoft/), [Buy Me a Coffee](https://buymeacoffee.com/abiosoft) and [Patreon](www.patreon.com/colima).
 
 [^1]: I do not honour messages outside of the designated communication channels for the project.

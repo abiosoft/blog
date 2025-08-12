@@ -2,8 +2,10 @@ baseurl = "https://abio.la/"
 languageCode = "en-us"
 title = "Abiola Ibrahim"
 theme = "typo"
-paginate = 10
 enableRobotsTXT = true
+
+[pagination]
+pagerSize = 10
 
 [taxonomies]
 tag = 'tags'

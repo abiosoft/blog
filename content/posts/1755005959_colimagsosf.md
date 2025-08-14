@@ -73,7 +73,7 @@ I had the honour of e-meeting maintainers of very popular open source projects i
 [Bootstrap](https://getbootstrap.com/), [NativeScript](https://nativescript.org/) and [NVM](https://github.com/nvm-sh/nvm).
 I also met multiple open source leaders, as well as security leaders at Github and Microsoft.
 
-You can learn more about the [Github Secure Open Source Program here](https://github.blog/open-source/maintainers/securing-the-supply-chain-at-scale-starting-with-71-important-open-source-projects/).
+You can read the official announcement of the [Github Secure Open Source Program here](https://github.blog/open-source/maintainers/securing-the-supply-chain-at-scale-starting-with-71-important-open-source-projects/), which mentions Colima alongside 70 other projects.
 
 
 ### What is next?

@@ -7,7 +7,12 @@ tags = ["colima", "github", "opensource", "security"]
 draft = false
 +++
 
-[Colima](https://github.com/abiosoft/colima) provides container runtimes on macOS and Linux.
+[Colima](https://github.com/abiosoft/colima) was selected for the [Github Secure Open Source Fund](https://resources.github.com/github-secure-open-source-fund/) and participated in the security program
+with [70 other projects](https://github.blog/open-source/maintainers/securing-the-supply-chain-at-scale-starting-with-71-important-open-source-projects/).
+
+### What is Colima?
+
+Colima provides container runtimes on macOS and Linux.
 
 While it is regarded as an alternative to Docker Desktop, Colima supports multiple container runtimes
 including [Docker](https://docker.com), [Containerd](https://containerd.io), [Kubernetes](https://kubernetes.io) and [Incus](https://linuxcontainers.org/incus).
